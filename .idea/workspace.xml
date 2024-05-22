@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Object-Detection-Yolo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Running Yolo/Images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Running Yolo/Images/car-bus-building.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Running Yolo/Images/car-traffic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Running Yolo/Images/children-school-bus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Running Yolo/Yolo-Basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yolo With Webcam/yoloWebcam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yolo_weights/yolov8l.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yolo_weights/yolov8m.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yolo_weights/yolov8n.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/bikes.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/cars.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/motorbikes-1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/people.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/ppe-1-1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/ppe-2-1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Videos/ppe-3-1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Object-Detection-Yolo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Object-Detection-Yolo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yolo With Webcam/yoloWebcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yolo With Webcam/yoloWebcam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Yolo-Basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yoloWebcam.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Car-Counter.executor": "Run",
+    "Python.Yolo-Basics.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.yoloWebcam.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/cosmo/Desktop/Projects/Python/Object-Detection",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Yolo_weights" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="Yolo-Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Object-Detection-Yolo" />
       <option name="ENV_FILES" value="" />

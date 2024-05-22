@@ -13,10 +13,10 @@ cap.set(4, 720)  # height
 '''
 # Used for videos
 '''
-cap = cv2.VideoCapture("../Videos/people.mp4")
+cap = cv2.VideoCapture("../Videos/cars.mp4")
 
 # Creating MODAL
-model = YOLO("../Yolo_weights/yolov8m.pt")
+model = YOLO("../Yolo_weights/yolov8l.pt")
 
 # For Classification
 classNames = [
@@ -32,35 +32,30 @@ classNames = [
     "teddy bear", "hair drier", "toothbrush"
 ]
 
+'''
+To mask the video so that we only detect the motion when the object is in certain area 
+'''
+mask = cv2.imread("mask.png")
+
 while True:
     success, img = cap.read()
-    results = model(img, stream=True)
+
+    # Now Overlay the mask on the img using bitwise AND
+    imgRegion = cv2.bitwise_and(img, mask)
+
+    results = model(imgRegion, stream=True)
 
     # Check for individual bounding boxes
     for r in results:
         boxes = r.boxes
 
         for box in boxes:
-            '''
-            # USING OPENCV
-            x1, y1, x2, y2 = box.xyxy[0]
-            x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
-            print(x1, y1, x2, y2)
-            
-            #Create a bounding box
-            cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
-            '''
 
-            # USING CVZONE
-            # We can use "box.xywh" as well for width and height
-            # x, y, w, h = box.xywh[0]    #this does not work properly
+            print(box)
 
             x1, y1, x2, y2 = box.xyxy[0]
             x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
             w, h = x2 - x1, y2 - y1
-
-            # For Fancy Rectangle, use cvzone library
-            cvzone.cornerRect(img, (x1, y1, w, h))
 
             # Confidence Score
             conf = math.ceil(box.conf[0] * 100) / 100  # Rounding to 2 decimal places
@@ -70,7 +65,25 @@ while True:
             cls = box.cls[0]
             print(cls)
 
-            cvzone.putTextRect(img, f'{classNames[int(cls)]} {conf}', (max(0, x1), max(35, y1)), scale=1, thickness=1)
+            currentClass = classNames[int(cls)]
+
+            detection_list = ['car', 'bus', 'truck', 'motorbike']
+
+            if (currentClass in detection_list) and conf > 0.3:
+
+                # For Fancy Rectangle, use cvzone library
+                cvzone.cornerRect(img, (x1, y1, w, h), l=8)
+
+                cvzone.putTextRect(
+                    img,
+                    f'{currentClass} {conf}',
+                    (max(0, x1),
+                     max(35, y1)),
+                    scale=0.6,  # Scale of the text
+                    thickness=1,    # Thickness of text
+                    offset=3    # Removes the padding of the box in which the class is displayed
+                )
 
     cv2.imshow("Image", img)
-    cv2.waitKey(1)
+    cv2.imshow("Image Region", imgRegion)
+    cv2.waitKey(0)
