@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/bikes.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/cars.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/motorbikes-1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/people.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/ppe-1-1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/ppe-2-1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/ppe-3-1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Object-Detection-Yolo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Object-Detection-Yolo.iml" afterDir="false" />
+    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="Object Masking">
+      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/graphics.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yolo With Webcam/yoloWebcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yolo With Webcam/yoloWebcam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AnshulSharma4014&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AnshulSharma4014/Object-Detection.git&quot;,
+    &quot;accountId&quot;: &quot;88b96121-f4f9-4ace-b6b2-ff4596e1295b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -47,20 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Car-Counter.executor": "Run",
-    "Python.Yolo-Basics.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.yoloWebcam.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/cosmo/Desktop/Projects/Python/Object-Detection",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Car-Counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Yolo-Basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yoloWebcam.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cosmo/Desktop/Projects/Python/Object-Detection&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Yolo_weights" />
@@ -133,9 +134,37 @@
       <option name="presentableId" value="Default" />
       <updated>1716043106281</updated>
     </task>
+    <task id="LOCAL-00001" summary="Object Masking">
+      <option name="closed" value="true" />
+      <created>1716362330371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716362330371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Object Masking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Masking" />
   </component>
 </project>
