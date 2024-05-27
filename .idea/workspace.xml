@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="Object Masking">
-      <change afterPath="$PROJECT_DIR$/Project 1 - Car Counter/graphics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="Completed Car Counter Project">
+      <change afterPath="$PROJECT_DIR$/Project 2 - People Counter/Constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2 - People Counter/People-Counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2 - People Counter/graphics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2 - People Counter/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2 - People Counter/sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 1 - Car Counter/Car-Counter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Car-Counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Yolo-Basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yoloWebcam.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/cosmo/Desktop/Projects/Python/Object-Detection&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Car-Counter.executor": "Run",
+    "Python.People-Counter.executor": "Run",
+    "Python.Yolo-Basics.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.yoloWebcam.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/cosmo/Desktop/Projects/Python/Object-Detection",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cosmo\Desktop\Projects\Python\Object-Detection" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Yolo_weights" />
     </key>
@@ -142,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716362330371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed Car Counter Project">
+      <option name="closed" value="true" />
+      <created>1716553993228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716553993228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Object Masking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Masking" />
+    <MESSAGE value="Completed Car Counter Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Car Counter Project" />
   </component>
 </project>
