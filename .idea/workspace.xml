@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="Completed Person Counter Project">
-      <change afterPath="$PROJECT_DIR$/Project 3 - PPE Detection/PPE_Detection.py" afterDir="false" />
+    <list default="true" id="e6cd5109-0b95-44ec-ae88-7724214b1efa" name="Changes" comment="Uploaded the custom Modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 3 - PPE Detection/PPE_Detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 3 - PPE Detection/PPE_Detection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716807304057</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Trained Custom Modal using Google Collab and used in PPE Detection Project">
+      <option name="closed" value="true" />
+      <created>1717988337349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717988337349</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Uploaded the custom Modal">
+      <option name="closed" value="true" />
+      <created>1717988410272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717988410272</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +227,8 @@
     <MESSAGE value="Object Masking" />
     <MESSAGE value="Completed Car Counter Project" />
     <MESSAGE value="Completed Person Counter Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Person Counter Project" />
+    <MESSAGE value="Trained Custom Modal using Google Collab and used in PPE Detection Project" />
+    <MESSAGE value="Uploaded the custom Modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploaded the custom Modal" />
   </component>
 </project>

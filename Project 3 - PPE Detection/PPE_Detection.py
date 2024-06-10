@@ -24,18 +24,20 @@ while True:
             # Classification Names
             cls = box.cls[0]
 
-            currentClass = classNames[int(cls)]
-            if currentClass == 'Hardhat' or currentClass == 'Mask' or currentClass == 'Safety Vest':
-                myColor = (0, 255, 0)
-            else:
-                myColor = (0, 0, 255)
-
-            cv2.rectangle(img, (x1, y1), (x2, y2), myColor, 3)
-
             # Confidence Score
             conf = math.ceil(box.conf[0] * 100) / 100
 
-            cvzone.putTextRect(img, f'{classNames[int(cls)]} {conf}', (max(0, x1), max(35, y1)), scale=1, thickness=1, colorB=myColor, colorT=(255,255,255), colorR=myColor)
+            if conf > 0.5:
+                currentClass = classNames[int(cls)]
+                if currentClass == 'Hardhat' or currentClass == 'Mask' or currentClass == 'Safety Vest':
+                    myColor = (0, 255, 0)
+                elif currentClass == 'Person':
+                    myColor = (40, 60, 78)
+                else:
+                    myColor = (0, 0, 255)
+
+                cv2.rectangle(img, (x1, y1), (x2, y2), myColor, 3)
+                cvzone.putTextRect(img, f'{classNames[int(cls)]} {conf}', (max(0, x1), max(35, y1)), scale=1, thickness=1, colorB=myColor, colorT=(255,255,255), colorR=myColor)
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
